@@ -51,6 +51,11 @@ function setup()
   {
     sines[i] = PI; // start EVERYBODY facing NORTH
   }
+
+  song = loadSound('data/PhishMaze');
+  createCanvas(720, 200);
+  background(255,0,0);
+  
 }
 
 function draw()
